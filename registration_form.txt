@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.txt">
+        <label for="fname" id="fname">First Name</label><br>
+            <input type="text" placeholder="First Name" id="fname">
+        <br><br>
+        <label for="mname" id="mname">Middle Name</label><br>
+            <input type="text" placeholder="Middle Name" id="mname">
+        <br><br>
+        <label for="lname" id="lname">Last Name</label><br>
+            <input type="text" placeholder="Last name" id="lname">
+        <br><br>
+        <label for="bday" id="bday">Your Birthday</label><br>
+            <input type="date" id="bday">
+        <br><br>
+        <label for="email" id="email">Your Email</label><br>
+            <input type="email" placeholder="Enter Your Email" id="email">
+        <br><br>
+        <lable>Password</lable><br>
+        <input type="password">
+        <br><br>
+        <label for="id1">Gender</label><br>
+            <input type="radio" value="male" name="gender" id="id1">Male<br>
+        <label for="id2"></label>
+            <input type="radio" value="female" name="gender" id="id2">Female
+        <br><br>
+        <label for="city" id="id1">Select Your city</label><br>
+            <select class="city" id="id1">
+                <option value="Ahmedabad">Ahmedabad</option> 
+                <option value="Surat">Surat</option> 
+                <option value="Delhi">Delhi</option> 
+                <option value="Vadodara">Vadodara</option> 
+            </select>
+        <br><br>
+        <lable>Phone number</lable><br>
+        <input type="number">
+        <br><br>
+        <lable>Address</lable><br>
+            <textarea aria-setsize="5"></textarea>
+        <br><br>
+        <lable>Pincode</lable><br>
+        <input type="numbre" placeholder="Pincode">
+        <br><br>
+        <lable>Feedback</lable><br>
+            <input type="feedback"><br><br>
+        <lable for="id1"></lable>
+            <input type="radio" name="t&c" value="yes" id="id1">I accept t&c<br>
+        <lable for="id2"></lable>
+            <input type="radio" name="t&c" value="no" id="id2">I do not accept t&c
+        
+        <br><br>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
